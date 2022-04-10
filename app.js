@@ -13,7 +13,7 @@ $('.menu-btn').click(function(){
 })
 });
 
-// clicable text
+// clickable text
 $(".card").click(function() {
   window.location = $(this).find("a").attr("href"); 
   return false;
